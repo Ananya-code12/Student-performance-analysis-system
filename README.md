@@ -1,5 +1,7 @@
 # Student Performance Analysis System
 
+---------This project is created for mini project submission. --------
+
 ## Objective
 
 The main objective of this project is to analyze student data and understand how study hours and attendance affect their marks.

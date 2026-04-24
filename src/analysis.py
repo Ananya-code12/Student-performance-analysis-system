@@ -53,4 +53,6 @@ def insights():
     print("4. Effort score shows overall hard work.")
 
     print("5. Balance of study and attendance is important.")
+
+    print("\nAnalysis completed successfully")
               

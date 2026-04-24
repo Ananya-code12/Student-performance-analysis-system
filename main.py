@@ -1,6 +1,7 @@
 from src.preprocess import load_data, clean_data, feature_engineering
 from src.analysis import basic_stats, top_students, low_performers,study_vs_marks,attendance_vs_marks, group_analysis, insights
 
+#main function to run project
 def main():
     #file path
     path = "data/student_dataset.csv"

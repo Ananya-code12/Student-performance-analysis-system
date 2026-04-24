@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Load dataset
+# Loading dataset
 def load_data(path):
     print("....Loading data....")
     data = pd.read_csv(path)
@@ -34,7 +34,7 @@ def clean_data(data):
     data["StudyHours"] = data["StudyHours"].fillna(data["StudyHours"].median())
 
 
-    # Remove outliers
+    # Removing outliers
     data = data[(data["StudyHours"] <= 15) & (data["Marks"] <= 100)]
 
     return data
@@ -59,7 +59,7 @@ def feature_engineering(data):
     # add new column
     data["Performance"] = performance_list
 
-    # effort score
+    # Effort score
     data["EffortScore"] = data["StudyHours"] * data["Attendance"]
 
     return data

@@ -54,5 +54,7 @@ def insights():
 
     print("5. Balance of study and attendance is important.")
 
+    print("6. Regular study improves consistency.")
+
     print("\nAnalysis completed successfully")
               
